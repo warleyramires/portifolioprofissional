@@ -1,0 +1,41 @@
+section.section-two{
+    padding-block: 50px;
+}
+
+section.section-two .about-box .perfil-info{
+    height: 300px;
+   
+}
+
+section.section-two .about-box .perfil-info h2{
+    font-size: 2.8rem;
+    margin-block: 16px;
+}
+
+section.section-two .about-box .perfil-info p{
+    font-size: 1.3rem;
+    
+}
+.skills {
+    display: grid;
+    gap: 20px;
+}
+
+.skills h2 {
+    font-size: 2.8rem;
+    grid-column: span 4; 
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+    .skills {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 899px) {
+    .skills {
+       display: flex;
+       flex-direction: column; 
+    }
+}

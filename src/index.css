@@ -1,0 +1,14 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  margin-inline: 10px;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url('./assets/fonts/Roboto/Roboto-Black.ttf') format('truetype');
+}
